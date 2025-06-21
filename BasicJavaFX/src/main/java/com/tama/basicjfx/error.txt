@@ -1,0 +1,18 @@
+Executing pre-compile tasks…
+Cleaning output directories…
+Running 'before' tasks
+Checking sources
+Copying resources… [BasicJFX]
+Dependency analysis found 0 affected files
+Updating dependency information… [BasicJFX]
+Parsing java… [BasicJFX]
+Dependency analysis found 0 affected files
+java: module not found: javafx.graphics
+java: module not found: javafx.base
+Errors occurred while compiling module 'BasicJFX'
+javac 21.0.3 was used to compile java sources
+Finished, saving caches…
+Builder Java requested build stop
+Executing post-compile tasks…
+Synchronizing output directories…
+21/06/25 14.14 - Build completed with 4 errors and 0 warnings in 4 sec, 621 ms
