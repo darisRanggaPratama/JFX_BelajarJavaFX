@@ -1,0 +1,28 @@
+Kamu adalah Java Developer. Buatlah program Java menggunakan JavaFX 21 tanpa FXML dengan spesifikasi berikut:
+
+Fungsi Utama:
+
+1. Tampilkan 3 tombol: "Merah", "Hijau", dan "Biru"
+2. Setiap tombol ketika diklik menampilkan lingkaran dengan warna sesuai (merah, hijau, atau biru)
+3. Jika multiple tombol diklik, tampilkan lingkaran dengan warna campuran (additive RGB mixing)
+
+
+Technical Requirements:
+1. Gunakan pure Java (tanpa FXML)
+2. JavaFX 21
+3. Layout: BorderPane (tombol di bottom, canvas di center)
+4. Implementasikan color mixing logic dengan sistem RGB
+5. Setiap klik tombol menambah 50 ke komponen warna terkait
+6. Batasi nilai RGB antara 0-255
+7. Tampilkan lingkaran baru setiap kali tombol diklik
+
+
+Output yang diharapkan: Kode Java lengkap yang langsung dapat di-compile dan di-run dengan JavaFX 21.
+
+
+Contoh behavior:
+
+1. Klik "Merah" muncul lingkaran merah
+2. Klik "Hijau" muncul lingkaran hijau
+3. Klik "Merah" + "Hijau" muncul lingkaran kuning
+4. Klik semua tombol muncul lingkaran putih (jika mencapai 255 semua)
